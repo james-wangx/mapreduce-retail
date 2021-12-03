@@ -55,6 +55,7 @@ public class joinMapper extends Mapper<LongWritable, Text, Text, joinBean> {
         String[] details = detailsMap.get(fields[1]);
 
         outK.set(fields[0] + "," + fields[1]);
+
         outV.setTransactionId(fields[0]);
         outV.setStoreId(fields[1]);
         outV.setReviewScore(Integer.parseInt(fields[2]));
