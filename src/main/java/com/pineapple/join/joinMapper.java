@@ -26,7 +26,7 @@ public class joinMapper extends Mapper<LongWritable, Text, Text, joinBean> {
     @Override
     protected void setup(Mapper<LongWritable, Text, Text, joinBean>.Context context)
             throws IOException {
-        // 从缓存文件中读取 store_review.csv
+        // 从缓存文件中读取 store_details.csv
         URI[] cacheFiles = context.getCacheFiles();
         Path path = new Path(cacheFiles[0]);
 

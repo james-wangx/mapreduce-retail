@@ -1,7 +1,6 @@
 package com.pineapple.join;
 
 import org.apache.hadoop.io.Writable;
-import org.omg.CORBA_2_3.portable.OutputStream;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -77,6 +76,6 @@ public class joinBean implements Writable {
 
     @Override
     public String toString() {
-        return storeId + "," + transactionId + "," + storeName + "," + reviewScore + "," + employeeNumber;
+        return storeId + "," + transactionId + "," + reviewScore + "," + storeName + "," + employeeNumber;
     }
 }

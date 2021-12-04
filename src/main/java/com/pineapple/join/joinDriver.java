@@ -1,8 +1,5 @@
 package com.pineapple.join;
 
-import com.pineapple.dropEmpty.deDriver;
-import com.pineapple.dropEmpty.deMapper;
-import com.pineapple.dropEmpty.deReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
